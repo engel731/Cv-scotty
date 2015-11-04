@@ -103,3 +103,9 @@ article h2
     width: auto;
   }
 }
+
+footer
+{
+  margin-top: 50px;
+  text-align: center;
+}
