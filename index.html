@@ -2,28 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="styles/index.css">
+
     <!--[if lt IE 9]>
       <script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="styles/index.css">
     <title>Cv-Scotty</title>
   </head>
 
   <body>
     <div id="liseret"></div>
 
-    <div id="bloc_page">
-      <header>
-        <a href="images/scottyLarge.jpg" title="Zoom"><img src="images/scotty.jpg" alt="Photo de Scotty" id="scotty" /></a>
-        <h1>Scotty</h1>
-        <p>
-          Petit robot de protocole, conçu par <strong>Dassault Systèmes</strong><br />
-          programmé pour toutes tâches ménagères, spécialisé dans l'assistance des personnes âgées.
-        </p>
+    <div id="bloc_page" class="container-fluid">
+      <header class="row">
+        <div class="col-md-10">
+          <h1>Scotty</h1>
+         
+          <p>
+            Petit robot de protocole, conçu par <strong>Dassault Systèmes</strong><br />
+            programmé pour toutes tâches ménagères, spécialisé dans l'assistance des personnes âgées.
+          </p>
+        </div>
+
+        <a href="images/scottyLarge.jpg" title="Zoom" class="col-md-2">
+          <img src="images/scotty.jpg" alt="Photo de Scotty" id="scotty" />
+        </a>
       </header>
 
-      <section>
-        <article>
+      <section class="row">
+        <article class="col-md-4">
           <h2>Mon expérience</h2>
 
           <ul>
@@ -34,7 +45,7 @@
           </ul>
         </article>
 
-        <article>
+        <article class="col-md-4">
           <h2>Mes compétences</h2>
 
           <ul>
@@ -45,7 +56,7 @@
           </ul>
         </article>
 
-        <article>
+        <article class="col-md-4">
           <h2>Ma formation</h2>
 
           <p>
